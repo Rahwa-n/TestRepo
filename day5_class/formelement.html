@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form url="create_user.js" method="POST">
+            <fieldset>
+                <legend>User Form</legend>
+                <label for="login">User Name: </label>
+                <input type="text" name="login" placeholder="Enter your user Name">
+                <br><br>
+                <label>First Name: </label>
+                <input type="text" name="firstname" maxlength="15" minlength="7" size="2">
+                <br><br>
+                <label>Password: </label>
+                <input type="password" name="password" name="pwd">
+                
+            </fieldset>
+            <label for="idRed">Red</label>
+            <input type="radio" name="favColor" value="red" id="idRed" checked="checked">
+            
+            <label for="idGreen">Green</label>
+            <input type="radio" name="favColor" value="green" id="idGreen">
+            
+            <label for="idBlue">Blue</label>
+            <input type="radio" name="favColor" value="blue" id="idBlue">
+            
+            <br><br>
+            <input type="submit" value="Submit">
+    </body>
+</html>
